@@ -90,7 +90,7 @@ module.exports = (env, argv) => {
     output: {
       filename: "src/[name].bundle.js",
       path: path.resolve(__dirname, "dist"),
-      publicPath: "/dist/", // path on which webpack will serve the application.
+      publicPath: "/", // path on which webpack will serve the application.
       // allows one to use asset files (fonts, icons, etc) without configuring additional loaders.
       assetModuleFilename: "assets/images/[name][ext][query]",
     },
